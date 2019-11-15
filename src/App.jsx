@@ -29,7 +29,7 @@ class App extends React.Component {
   /*Check out this addAssignment method*/
   addAssignment(assignmentName) {
     this.setState({
-      assignments: this.state.assignments.concat(assignmentName)
+       assignments: this.state.assignments.concat(assignmentName)
     });
   }
 
